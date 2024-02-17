@@ -5,10 +5,11 @@
 #
 
 # Inherit some common Genesis stuff.
-$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Officials Flag
-GENESIS_OFFICIAL := true
+# Droidx Flags
+DROIDX_BUILD_TYPE := OFFICIAL
+DROIDX_GAPPS := true

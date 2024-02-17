@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_citrus.mk \
-    $(LOCAL_DIR)/genesis_lime.mk
+    $(LOCAL_DIR)/droidx_citrus.mk \
+    $(LOCAL_DIR)/droidx_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    genesis_citrus-user \
-    genesis_citrus-userdebug \
-    genesis_citrus-eng \
-    genesis_lime-user \
-    genesis_lime-userdebug \
-    genesis_lime-eng
+    droidx_citrus-user \
+    droidx_citrus-userdebug \
+    droidx_citrus-eng \
+    droidx_lime-user \
+    droidx_lime-userdebug \
+    droidx_lime-eng
