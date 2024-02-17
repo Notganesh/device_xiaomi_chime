@@ -13,5 +13,7 @@ git clone https://github.com/hac4us06/vendor_xiaomi_chime -b 13 vendor/xiaomi/ch
 git clone https://github.com/hac4us06/vendor_xiaomi_citrus -b 13 vendor/xiaomi/citrus  --depth=1
 git clone https://github.com/hac4us06/vendor_xiaomi_lime -b 13 vendor/xiaomi/lime  --depth=1
 
+rm -rf hardware/xiaomi
+
 # Hardware
-git clone https://github.com/hac4us06/hardware_xiaomi -b thirteen hardware/xiaomi  --depth=1
+git clone https://github.com/Notganesh/hardware_xiaomi.git -b UNO hardware/xiaomi  --depth=1
